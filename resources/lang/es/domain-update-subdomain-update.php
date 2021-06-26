@@ -1,0 +1,23 @@
+<?php return [
+    'certificate_checked_at' => 'Comprobado el',
+    'certificate_enabled' => 'Comprobar Certificado',
+    'certificate_expires_at' => 'Caduca el',
+    'certificate_status' => 'Estado del Certificado',
+    'delete' => [
+        'button' => 'Borrar',
+        'cancel' => 'Cancelar',
+        'delete' => 'Borrar',
+        'message' => 'Este proceso no es reversible. Realmente deseas borrar este subdominio?',
+        'title' => 'Borrado de Servidor',
+    ],
+    'enabled' => 'Activo',
+    'host' => 'Servidor',
+    'ping_checked_at' => 'Comprobado el',
+    'ping_enabled' => 'Comprobar Ping',
+    'ping_status' => 'Estado del Ping',
+    'save' => 'Guardar',
+    'success' => 'El subdominio ha sido actualizado correctamente',
+    'url_checked_at' => 'Comprobadas el',
+    'url_enabled' => 'Comprobar URLs',
+    'url_status' => 'Estado de las URLs',
+];

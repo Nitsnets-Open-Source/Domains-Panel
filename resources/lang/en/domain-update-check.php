@@ -1,0 +1,15 @@
+<?php return [
+    'created_at' => '',
+    'details' => '',
+    'error-empty' => '',
+    'error-yes' => '',
+    'go' => '',
+    'status' => '',
+    'type' => '',
+    'type-certificate' => '',
+    'type-domain' => '',
+    'type-empty' => '',
+    'type-ping' => '',
+    'type-url' => '',
+    'value' => '',
+];

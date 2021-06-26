@@ -1,0 +1,23 @@
+<?php return [
+    'certificate_checked_at' => '',
+    'certificate_enabled' => '',
+    'certificate_expires_at' => '',
+    'certificate_status' => '',
+    'delete' => [
+        'button' => '',
+        'cancel' => '',
+        'delete' => '',
+        'message' => '',
+        'title' => '',
+    ],
+    'enabled' => '',
+    'host' => '',
+    'ping_checked_at' => '',
+    'ping_enabled' => '',
+    'ping_status' => '',
+    'save' => '',
+    'success' => '',
+    'url_checked_at' => '',
+    'url_enabled' => '',
+    'url_status' => '',
+];

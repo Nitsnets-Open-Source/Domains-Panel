@@ -1,0 +1,15 @@
+<?php return [
+    'created_at' => 'Fecha',
+    'details' => 'Detalles',
+    'error-empty' => 'Todos',
+    'error-yes' => 'Con Error',
+    'go' => 'Ir',
+    'status' => 'Estado',
+    'type' => 'Tipo',
+    'type-certificate' => 'Comprobaciones de Certificado',
+    'type-domain' => 'Comprobaciones de Dominio',
+    'type-empty' => 'Todos',
+    'type-ping' => 'Comprobaciones de Ping',
+    'type-url' => 'Comprobaciones de Url',
+    'value' => 'Valor',
+];

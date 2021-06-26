@@ -1,0 +1,43 @@
+[
+    {
+        "key": "notify_email",
+        "value": "devops@nitsnets.com",
+        "description": "Correo de notificaciones"
+    },
+
+    {
+        "key": "domain_notify_domain_expires_days",
+        "value": 10,
+        "description": "Notificar X días antes la caducidad de un dominio"
+    },
+
+    {
+        "key": "subdomain_notify_certificate_expires_days",
+        "value": 10,
+        "description": "Notificar X días antes la caducidad de los certificados"
+    },
+
+    {
+        "key": "check_notify_fails_certificate",
+        "value": 1,
+        "description": "Notificar si falla X veces continuadas en la validación del certificado"
+    },
+
+    {
+        "key": "check_notify_fails_domain",
+        "value": 1,
+        "description": "Notificar si de X veces continuadas en la validación del dominio"
+    },
+
+    {
+        "key": "check_notify_fails_ping",
+        "value": 2,
+        "description": "Notificar si falla X veces continuadas en la validación del ping"
+    },
+
+    {
+        "key": "check_notify_fails_url",
+        "value": 2,
+        "description": "Notificar si falla X veces continuadas en la validación de URL"
+    }
+]
