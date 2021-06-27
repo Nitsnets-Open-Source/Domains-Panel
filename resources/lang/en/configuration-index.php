@@ -1,6 +1,6 @@
 <?php return [
-    'description' => '',
-    'key' => '',
-    'meta-title' => '',
-    'value' => '',
+    'description' => 'Description',
+    'key' => 'Key',
+    'meta-title' => 'Configuration',
+    'value' => 'Value',
 ];

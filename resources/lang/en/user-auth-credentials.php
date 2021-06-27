@@ -1,9 +1,9 @@
 <?php return [
-    'email' => '',
+    'email' => 'Email',
     'error' => [
-        'auth-fail' => '',
+        'auth-fail' => 'Authentication failed',
     ],
-    'login' => '',
-    'meta-title' => '',
-    'password' => '',
+    'login' => 'Enter',
+    'meta-title' => 'Access',
+    'password' => 'Password',
 ];

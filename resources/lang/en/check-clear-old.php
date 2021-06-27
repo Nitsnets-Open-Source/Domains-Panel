@@ -1,5 +1,5 @@
 <?php return [
     'error' => [
-        'days' => '',
+        'days' => 'No valid reference for days has been provided.',
     ],
 ];

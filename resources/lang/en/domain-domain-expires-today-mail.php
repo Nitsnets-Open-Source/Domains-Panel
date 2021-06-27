@@ -1,6 +1,6 @@
 <?php return [
-    'domain_expires_at' => '',
-    'host' => '',
-    'message' => '',
-    'subject' => '',
+    'domain_expires_at' => 'Expires',
+    'host' => 'Domain',
+    'message' => 'The following domains expire today.',
+    'subject' => 'Domains that expire today.',
 ];

@@ -1,3 +1,3 @@
 <?php return [
-    'success' => '',
+    'success' => 'The URL has been successfully deleted',
 ];

@@ -1,12 +1,12 @@
 <?php return [
-    'email' => '',
+    'email' => 'Email',
     'error' => [
-        'exists' => '',
+        'exists' => 'There is already another user with that same email',
     ],
-    'meta-title' => '',
-    'name' => '',
-    'password' => '',
-    'password_current' => '',
-    'save' => '',
-    'success' => '',
+    'meta-title' => 'Profile Update',
+    'name' => 'Name',
+    'password' => 'Password',
+    'password_current' => 'Current Password',
+    'save' => 'Save',
+    'success' => 'Your profile has been updated successfully',
 ];

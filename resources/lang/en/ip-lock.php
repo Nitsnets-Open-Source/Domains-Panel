@@ -1,5 +1,5 @@
 <?php return [
     'error' => [
-        'locked' => '',
+        'locked' => 'IP Blocked',
     ],
 ];

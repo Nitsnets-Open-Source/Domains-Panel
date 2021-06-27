@@ -1,11 +1,11 @@
 <?php return [
-    'close' => '',
+    'close' => 'Close',
     'error' => [
-        'method-not-allowed' => '',
-        'not-found' => '',
-        'not-found-model' => '',
-        'query' => '',
-        'system' => '',
+        'method-not-allowed' => 'Method Not Allowed',
+        'not-found' => 'Not Found',
+        'not-found-model' => 'Not Found',
+        'query' => 'System Error',
+        'system' => 'System Error',
     ],
     'meta' => [
         'title' => '',

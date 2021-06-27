@@ -1,5 +1,5 @@
 <?php return [
-    'end_at' => '',
-    'search' => '',
-    'start_at' => '',
+    'end_at' => 'End Date',
+    'search' => 'Search...',
+    'start_at' => 'Start Date',
 ];

@@ -1,5 +1,5 @@
 <?php return [
     'error' => [
-        'exists' => '',
+        'exists' => 'There is already another user with that same email',
     ],
 ];

@@ -1,5 +1,5 @@
 <?php return [
     'error' => [
-        'not-found' => '',
+        'not-found' => 'URL not found',
     ],
 ];

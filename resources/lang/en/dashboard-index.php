@@ -1,9 +1,9 @@
 <?php return [
-    'domains-error' => '',
-    'domains-expired' => '',
-    'domains-expires-next' => '',
-    'meta-title' => '',
-    'subdomains_certificate-error' => '',
-    'subdomains_certificate-expired' => '',
-    'subdomains_certificate-expires-next' => '',
+    'domains-error' => 'Failed domains',
+    'domains-expired' => 'Expired domains',
+    'domains-expires-next' => 'Upcoming domains to expire',
+    'meta-title' => 'Dashboard',
+    'subdomains_certificate-error' => 'Failed subdomains',
+    'subdomains_certificate-expired' => 'Expired certificates',
+    'subdomains_certificate-expires-next' => 'Upcoming certificates to expire',
 ];

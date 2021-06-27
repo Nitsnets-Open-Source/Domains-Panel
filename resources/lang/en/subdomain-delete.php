@@ -1,3 +1,3 @@
 <?php return [
-    'success' => '',
+    'success' => 'The subdomain has been successfully deleted',
 ];

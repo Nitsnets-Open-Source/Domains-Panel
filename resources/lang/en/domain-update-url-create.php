@@ -1,8 +1,8 @@
 <?php return [
-    'enabled' => '',
-    'save' => '',
-    'subdomain' => '',
-    'subdomain-placeholder' => '',
-    'success' => '',
-    'url' => '',
+    'enabled' => 'Enabled',
+    'save' => 'Save',
+    'subdomain' => 'Subdomain',
+    'subdomain-placeholder' => 'Select one',
+    'success' => 'The URL has been created successfully',
+    'url' => 'URL',
 ];

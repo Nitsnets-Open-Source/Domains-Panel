@@ -1,3 +1,3 @@
 <?php return [
-    'success' => '',
+    'success' => 'The domain has been successfully deleted',
 ];
