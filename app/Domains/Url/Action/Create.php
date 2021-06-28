@@ -2,7 +2,6 @@
 
 namespace App\Domains\Url\Action;
 
-use App\Domains\Url\Action\Traits\CreateUpdate as CreateUpdateTrait;
 use App\Domains\Url\Model\Url as Model;
 
 class Create extends CreateUpdateAbstract

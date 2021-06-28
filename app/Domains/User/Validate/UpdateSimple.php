@@ -12,10 +12,10 @@ class UpdateSimple extends ValidateAbstract
     public function rules(): array
     {
         return [
-            'name' => ['bail', 'nullable' , 'string'],
-            'email' => ['bail', 'nullable' , 'string', 'email:filter'],
-            'password' => ['bail', 'nullable' , 'min:8'],
-            'enabled' => ['bail', 'nullable' , 'boolean'],
+            'name' => ['bail', 'nullable', 'string'],
+            'email' => ['bail', 'nullable', 'string', 'email:filter'],
+            'password' => ['bail', 'nullable', 'min:8'],
+            'enabled' => ['bail', 'nullable', 'boolean'],
         ];
     }
 }
