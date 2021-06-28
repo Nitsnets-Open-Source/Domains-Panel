@@ -9,19 +9,19 @@ class Create extends CommandAbstract
     /**
      * @var string
      */
-    protected $signature = 'subdomain:create {--host=} {--user_id=} {--enabled} {--subsubdomain}';
+    protected $signature = 'subdomain:create {--host=} {--domain_id=} {--user_id=} {--enabled} {--certificate_enabled} {--ping_enabled} {--url_enabled}';
 
     /**
      * @var string
      */
-    protected $description = 'Create Subdomain with {--host=} {--user_id=} {--enabled} {--subsubdomain}';
+    protected $description = 'Create Subdomain with {--host=} {--domain_id=} {--user_id=} {--enabled} {--certificate_enabled} {--ping_enabled} {--url_enabled}';
 
     /**
      * @return void
      */
     public function handle()
     {
-        $this->checkOptions(['host', 'user_id']);
+        $this->checkOptions(['host', 'domain_id', 'user_id']);
 
         $this->actingAs($this->option('user_id'));
 
