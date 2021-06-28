@@ -2,7 +2,6 @@
 
 namespace App\Domains\Maintenance\Mail;
 
-use Illuminate\Support\Collection;
 use App\Domains\Shared\Mail\MailAbstract;
 
 class Test extends MailAbstract

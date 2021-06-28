@@ -2,9 +2,6 @@
 
 namespace App\Domains\Maintenance\Action;
 
-use Generator;
-use App\Services\Filesystem\Directory;
-
 class MailTestQueue extends ActionAbstract
 {
     /**
