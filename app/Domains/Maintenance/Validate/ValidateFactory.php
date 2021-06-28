@@ -21,4 +21,20 @@ class ValidateFactory extends ValidateFactoryAbstract
     {
         return $this->handle(FileZip::class);
     }
+
+    /**
+     * @return array
+     */
+    public function mailTestQueue(): array
+    {
+        return $this->handle(MailTestQueue::class);
+    }
+
+    /**
+     * @return array
+     */
+    public function mailTestSend(): array
+    {
+        return $this->handle(MailTestSend::class);
+    }
 }

@@ -23,6 +23,22 @@ class ActionFactory extends ActionFactoryAbstract
     }
 
     /**
+     * @return void
+     */
+    public function mailTestQueue(): void
+    {
+        $this->actionHandle(MailTestQueue::class, $this->validate()->mailTestQueue());
+    }
+
+    /**
+     * @return void
+     */
+    public function mailTestSend(): void
+    {
+        $this->actionHandle(MailTestSend::class, $this->validate()->mailTestSend());
+    }
+
+    /**
      * @return array
      */
     public function opcachePreload(): array
