@@ -75,6 +75,44 @@ php artisan user:create --email=user@domain.com --name=Admin --password=StrongPa
 
 12. Profit!
 
+### Comandos
+
+Alta de usuario:
+
+```bash
+php artisan user:create {--email=} {--name=} {--password=}
+```
+
+Actualización de usuario:
+
+```bash
+php artisan user:update {--id=} {--email=} {--name=} {--enabled=} {--password=}
+```
+
+Alta de dominio:
+
+```bash
+php artisan domain:create {--host=} {--user_id=} {--enabled} {--subdomain}
+```
+
+Comprobar todos los dominios:
+
+```bash
+php artisan domain:check:all
+```
+
+Comprobar un dominio:
+
+```bash
+php artisan domain:check {--id=}
+```
+
+Alta de subdominio:
+
+```bash
+php artisan subdomain:create {--host=} {--domain_id=} {--user_id=} {--enabled} {--certificate_enabled} {--ping_enabled} {--url_enabled}
+```
+
 ### Notas
 
 Para obtener las fechas de caducidad de los dominios se usan varios servicios diferentes.
