@@ -2,22 +2,16 @@
 
 namespace App\Domains\Maintenance\Action;
 
-use App\Services\Compress\Zip;
+use App\Services\Compress\Zip\File as ZipFile;
 
 class FileZip extends ActionAbstract
 {
-    /**
-     * @var \App\Services\Compress\Zip
-     */
-    protected Zip $service;
-
     /**
      * @return void
      */
     public function handle(): void
     {
         $this->data();
-        $this->service();
         $this->compress();
     }
 
@@ -27,15 +21,7 @@ class FileZip extends ActionAbstract
     protected function data(): void
     {
         $this->data['path'] = base_path($this->data['folder']);
-        $this->data['date'] = date('Y-m-d H:i:s', strtotime('-'.$this->data['days'].' days'));
-    }
-
-    /**
-     * @return void
-     */
-    protected function service(): void
-    {
-        $this->service = new Zip($this->data['path'], $this->data['extensions'], $this->data['date']);
+        $this->data['time'] = strtotime('-'.$this->data['days'].' days');
     }
 
     /**
@@ -43,6 +29,9 @@ class FileZip extends ActionAbstract
      */
     protected function compress(): void
     {
-        $this->service->compress();
+        (new ZipFile($this->data['path']))
+            ->extensions($this->data['extensions'])
+            ->toTime($this->data['time'])
+            ->compress();
     }
 }
