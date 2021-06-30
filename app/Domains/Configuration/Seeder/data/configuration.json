@@ -26,7 +26,7 @@
     {
         "key": "check_notify_fails_domain",
         "value": 1,
-        "description": "Notificar si de X veces continuadas en la validación del dominio"
+        "description": "Notificar si falla X veces continuadas en la validación del dominio"
     },
 
     {
