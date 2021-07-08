@@ -5,12 +5,13 @@ import './zoom';
 import './chart';
 
 // Components
-import './dropdown';
-import './modal';
-import './tab';
-import './alert';
+
 import './side-menu';
 import './mobile-menu';
 import './form';
 import './table';
-import './product';
+import './table-pagination';
+import './tab';
+import './dropdown';
+import './alert';
+import './modal';

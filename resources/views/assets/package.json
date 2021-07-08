@@ -1,12 +1,12 @@
 {
     "private": true,
     "devDependencies": {
-        "@left4code/tw-starter": "^1.0.27",
+        "@left4code/tw-starter": "^1.0.28",
         "@popperjs/core": "^2.9.0",
         "autoprefixer": "^10.2.6",
         "cash-dom": "^8.1",
         "chart.js": "^2.9.4",
-        "dayjs": "^1.10.5",
+        "dayjs": "^1.10.6",
         "del": "6.0",
         "files-exist": "^1.1",
         "gulp": "^4.0",
