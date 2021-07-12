@@ -5387,6 +5387,10 @@ select {
   padding-right: 1rem;
 }
 
+table[data-table-sort] thead th {
+  cursor: pointer;
+}
+
 .break-inside {
   -moz-column-break-inside: avoid;
        break-inside: avoid;

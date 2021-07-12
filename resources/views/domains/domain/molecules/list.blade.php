@@ -1,5 +1,5 @@
 <div class="overflow-auto md:overflow-visible header-sticky">
-    <table id="domain-list-table" class="table table-report text-center" data-table-sort>
+    <table id="domain-list-table" class="table table-report text-center" data-table-pagination="domain-list-table-pagination" data-table-pagination-limit="50" data-table-sort>
         <thead>
             <tr>
                 <th class="text-left">{{ __('domain-index.host') }}</th>
@@ -32,4 +32,6 @@
             @endforeach
         </tbody>
     </table>
+
+    <ul id="domain-list-table-pagination" class="pagination justify-end"></ul>
 </div>

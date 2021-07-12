@@ -70,6 +70,10 @@ select {
     padding-right: 1rem
 }
 
+table[data-table-sort] thead th {
+    cursor: pointer;
+}
+
 @layer utilities {
     @variants responsive {
         .masonry {

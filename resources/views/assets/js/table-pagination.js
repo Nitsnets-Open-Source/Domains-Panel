@@ -1,8 +1,10 @@
 (function (cash) {
     'use strict';
 
-    function paginate($paginator, $trs, $a, limit) {
-        const page = parseInt($a.innerHTML);
+    function paginate($table, $paginator, $page) {
+        const $trs = $table.querySelectorAll('tbody > tr');
+        const limit = parseInt($table.dataset.tablePaginationLimit || 20);
+        const page = parseInt($page.innerHTML);
         const first = (page - 1) * limit;
         const last = (page * limit) - 1;
 
@@ -19,19 +21,28 @@
         });
 
         $paginator.querySelectorAll('a').forEach(each => each.classList.remove('pagination__link--active'));
-        $a.classList.add('pagination__link--active');
+
+        $page.classList.add('pagination__link--active');
+    }
+
+    function reset(e, $table, $paginator) {
+        if (e.detail === 'pagination') {
+            return;
+        }
+
+        paginate($table, $paginator, $paginator.querySelector('.pagination__link--active'));
     }
 
     cash('[data-table-pagination]').each(function () {
-        const $paginator = document.getElementById(this.dataset.tablePagination);
+        const $table = this;
+        const $paginator = document.getElementById($table.dataset.tablePagination);
 
         if (!$paginator) {
             return;
         }
 
-        const $trs = this.querySelectorAll('tbody > tr');
-        const limit = parseInt(this.dataset.tablePaginationLimit || 50);
-        const total = $trs.length;
+        const total = $table.querySelectorAll('tbody > tr').length;
+        const limit = parseInt($table.dataset.tablePaginationLimit || 20);
 
         if (total < limit) {
             return;
@@ -45,8 +56,10 @@
             $paginator.insertAdjacentHTML('beforeend', '<li><a href="javascript:;" class="pagination__link">' + (i + 1) + '</a></li>');
         }
 
-        paginate($paginator, $trs, $paginator.querySelector('a'), limit);
+        paginate($table, $paginator, $paginator.querySelector('a'));
 
-        $paginator.querySelectorAll('a').forEach(each => each.addEventListener('click', () => paginate($paginator, $trs, each, limit), false));
+        $paginator.querySelectorAll('a').forEach(each => each.addEventListener('click', () => paginate($table, $paginator, each), false));
+
+        $table.addEventListener('reset', (e) => reset(e, $table, $paginator), false);
     });
 })(cash);

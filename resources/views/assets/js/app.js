@@ -13,5 +13,7 @@ import './table';
 import './table-pagination';
 import './tab';
 import './dropdown';
+import './table-search';
+import './table-sort';
 import './alert';
 import './modal';

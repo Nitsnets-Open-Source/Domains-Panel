@@ -1,5 +1,5 @@
 <div class="overflow-auto md:overflow-visible header-sticky">
-    <table id="url-list-table" class="table table-report text-center" data-table-sort>
+    <table id="url-list-table" class="table table-report text-center" data-table-pagination="url-list-table-pagination" data-table-pagination-limit="50" data-table-sort>
         <thead>
             <tr>
                 <th class="text-left">{{ __('url-index.url') }}</th>
@@ -30,4 +30,6 @@
             @endforeach
         </tbody>
     </table>
+
+    <ul id="url-list-table-pagination" class="pagination justify-end"></ul>
 </div>
