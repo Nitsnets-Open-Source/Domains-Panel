@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4524ba142f305a660c031977d76680b6",
+    "content-hash": "5be4ac336ace5ccf062e6a5d967683b4",
     "packages": [
         {
             "name": "brick/math",
@@ -10640,16 +10640,16 @@
         },
         {
             "name": "slevomat/coding-standard",
-            "version": "7.0.10",
+            "version": "7.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/slevomat/coding-standard.git",
-                "reference": "4607562c9d217a1026c9effde4fc78065571fd19"
+                "reference": "7151ac79031549850c110815c5fabeccff952592"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/slevomat/coding-standard/zipball/4607562c9d217a1026c9effde4fc78065571fd19",
-                "reference": "4607562c9d217a1026c9effde4fc78065571fd19",
+                "url": "https://api.github.com/repos/slevomat/coding-standard/zipball/7151ac79031549850c110815c5fabeccff952592",
+                "reference": "7151ac79031549850c110815c5fabeccff952592",
                 "shasum": ""
             },
             "require": {
@@ -10685,7 +10685,7 @@
             "description": "Slevomat Coding Standard for PHP_CodeSniffer complements Consistence Coding Standard by providing sniffs with additional checks.",
             "support": {
                 "issues": "https://github.com/slevomat/coding-standard/issues",
-                "source": "https://github.com/slevomat/coding-standard/tree/7.0.10"
+                "source": "https://github.com/slevomat/coding-standard/tree/7.0.11"
             },
             "funding": [
                 {
@@ -10697,7 +10697,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-07-09T09:07:10+00:00"
+            "time": "2021-07-12T17:14:11+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
