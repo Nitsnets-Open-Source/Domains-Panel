@@ -1,7 +1,7 @@
 {
-    "name": "eusonlito/laravel-domain-scaffolding",
+    "name": "nitsnets/domains-panel",
     "type": "project",
-    "description": "PROJECT",
+    "description": "Nitsnets Domains Panel",
     "license": "MIT",
     "require": {
         "php": "^7.4|^8.0",
