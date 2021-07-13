@@ -3,7 +3,7 @@
     "devDependencies": {
         "@left4code/tw-starter": "^1.0.28",
         "@popperjs/core": "^2.9.0",
-        "autoprefixer": "^10.3.0",
+        "autoprefixer": "^10.3.1",
         "cash-dom": "^8.1",
         "chart.js": "^2.9.4",
         "dayjs": "^1.10.6",
